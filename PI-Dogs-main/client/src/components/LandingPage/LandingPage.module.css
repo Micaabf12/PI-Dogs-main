@@ -1,0 +1,41 @@
+.cointainer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .enterBtn {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  
+    box-shadow: 1px 1px 5px 3px rgba(27, 9, 192, 0.2);
+    border-radius: 0.5rem;
+  
+    cursor: pointer;
+    font-weight: 600;
+    color: rgba(192, 219, 36, 0.6);
+    width: 20rem;
+    height: 2.5rem;
+  
+    margin: 0 0.5rem;
+    color: rgb(77, 116, 5);
+    border: 2px solid var(--primaryblack);
+    border-radius: 5px;
+    font-size: large;
+  }
+  
+  .enterBtn:hover {
+    border-radius: 20px;
+    color: rgba(226, 9, 129, 0.6);
+    font-size: larger;
+  
+    width: 21rem;
+    height: 4rem;
+  
+  
+    transition: 0.8s;
+  }
+  

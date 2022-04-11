@@ -1,0 +1,20 @@
+.nav {
+    margin: 2rem 0;
+  }
+  
+  .paginationBtn {
+    border: none;
+    margin: 0 0.3rem;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.2rem;
+    background-color: rgb(202, 195, 195);
+    cursor: pointer;
+    color: var(--primary-red);
+    font-weight: 600;
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .paginationBtn:hover {
+    background-color: var(--secondary-red);
+    color: white;
+  }

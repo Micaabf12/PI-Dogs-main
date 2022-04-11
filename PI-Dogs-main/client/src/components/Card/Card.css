@@ -1,0 +1,27 @@
+p {
+    color: rgba(45, 216, 23, 0.842);
+    font-weight: 600;
+  }
+  
+  h3 {
+    margin: 0.15rem 0;
+  }
+  
+  h4 {
+    margin: 0.2rem 0;
+  }
+  
+  .imgContainer {
+    height: 175px;
+    overflow: hidden;
+  
+    /* object-fit: cover; */
+  }
+  .imgContainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 3px rgba(134, 11, 118, 0.774);
+  }

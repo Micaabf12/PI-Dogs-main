@@ -1,0 +1,40 @@
+.titleBar {
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    text-shadow: 1px 1px 2px rgb(20, 77, 12);
+  }
+  
+  .linkBtn {
+    margin: 0 0.5rem;
+    background-color: transparent;
+    color: rgb(10, 231, 21);
+    border: 2px solid var(--primary-red);
+    border-radius: 5px;
+    font-size: large;
+    text-shadow: 2px 1px 2px rgb(6, 150, 83);
+    font-weight: 500;
+    box-shadow: 1px 1px 5px 3px rgba(80, 168, 7, 0.3);
+  }
+  
+  .linkBtn:hover {
+    background-color: var(--secondary-red);
+    transition: 0.8s;
+    box-shadow: 1px 1px 5px 3px rgba(86, 218, 10, 0.3);
+  }
+  
+  .filterBar {
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--primary-red);
+  }
+  
+  .noPagination {
+    font-size: 0.8rem;
+    color: var(--primary-red);
+  }
+  
+  .imgNotFound {
+    height: 600px;
+    width: auto;
+  }
