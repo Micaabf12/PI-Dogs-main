@@ -1,7 +1,7 @@
 .titleBar {
     justify-content: space-between;
     padding: 1rem 2rem;
-    border-bottom: 2px solid var(--primary-whitesmoke);
+    border-bottom: 2px solid var(--primary-red);
   }
   
   .linkBtn {
@@ -18,9 +18,9 @@
   
   .createDogFlex {
     margin-top: 3rem;
-    border: 2px solid var(--primaryblack-red);
+    border: 2px solid var(--primary-red);
     background-color: var(--card-bg-color);
-    color: var(--primary-black-red);
+    color: var(--primary-red);
     width: 500px;
     border-radius: 0.5rem;
     box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.3);
@@ -31,11 +31,11 @@
   .submitBtn {
     margin-top: 15px;
     background-color: transparent;
-    color: #fff;
+    color: rgb(61, 180, 13);
     border: 2px solid var(--primary-red);
     border-radius: 5px;
     background-color: var(--secondary-red);
-    color: white;
+    color: rgb(231, 16, 16);
   
     display: flex;
     justify-content: center;
@@ -45,7 +45,7 @@
   
   .submitBtn:disabled {
     background-color: transparent;
-    color: #fff;
+    color: rgb(243, 22, 22);
     border: 2px solid var(--primary-red);
     border-radius: 5px;
     cursor: not-allowed;

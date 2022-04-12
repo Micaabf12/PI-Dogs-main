@@ -1,21 +1,21 @@
 .titleBar {
     justify-content: space-between;
     padding: 1rem 2rem;
-    border-bottom: 2px solid var(--primary-yellow);
+    border-bottom: 2px solid var(--primary-black);
   }
   
   .linkBtn {
     margin: 0 0.5rem;
     background-color: transparent;
     color: rgb(219, 30, 30);
-    border: 2px solid var(--secondary-red);
+    border: 2px solid var(--primary-red);
   }
   
   .detailsContainer {
     margin-top: 3rem;
-    border: 2px solid var(--secondary-purple);
+    border: 2px solid var(--secondary-red);
     background-color: var(--card-bg-color);
-    color: rgb(96, 10, 153);
+    color: rgb(22, 153, 10);
     width: 900px;
     height: 450px;
     border-radius: 0.5rem;

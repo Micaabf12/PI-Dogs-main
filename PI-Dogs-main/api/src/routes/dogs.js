@@ -95,7 +95,7 @@ const getDbDogs = async () => {
         life_span: dogDB.life_span,
         created_in_db: dogDB.created_in_db,
         temperament: temperamentStr,
-        image: dogDB.image,
+        image: dogDB.image
       };
       formattedDogsDB.push(dogDetails);
     }

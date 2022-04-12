@@ -40,7 +40,7 @@ function inputValidator(input) {
     inputError.min_height = 'Min height should be more than zero';
   }
   if (input.max_height && input.max_height > 110) {
-    //primero valido si tiene altura maxima si el dinosaurio mide mas de un metro diez tiero error
+    //primero valido si tiene altura maxima si el dinosaurio mide mas de un metro diez tiro error
     inputError.max_height =
       "Make sure it's a dog you are trying to add becasue max-height should be below 110cms";
   }
