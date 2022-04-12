@@ -15,7 +15,7 @@ export default function Pagination({
   return (
     <nav className={styles.nav}>
       <ul className="flex">
-        <button onClick={() => paginationChanger(currentPage - 1)}>prev</button>
+        <button onClick={() => paginationChanger(currentPage - 1 || currentPage !== 0)}>prev</button>
         {pageNumbers.length &&
           pageNumbers.map((number) => {
             return (
@@ -31,3 +31,4 @@ export default function Pagination({
     </nav>
   );
 }
+

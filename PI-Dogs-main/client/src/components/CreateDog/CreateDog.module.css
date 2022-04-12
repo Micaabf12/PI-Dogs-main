@@ -18,9 +18,9 @@
   
   .createDogFlex {
     margin-top: 3rem;
-    border: 2px solid var(--primary-red);
+    border: 2px solid var(--primary-black);
     background-color: var(--card-bg-color);
-    color: var(--primary-red);
+    color: var(--primary-black);
     width: 500px;
     border-radius: 0.5rem;
     box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.3);
@@ -35,7 +35,7 @@
     border: 2px solid var(--primary-red);
     border-radius: 5px;
     background-color: var(--secondary-red);
-    color: rgb(231, 16, 16);
+    color: rgb(19, 168, 106);
   
     display: flex;
     justify-content: center;

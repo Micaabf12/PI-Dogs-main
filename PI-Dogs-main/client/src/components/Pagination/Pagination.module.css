@@ -7,7 +7,7 @@
     margin: 0 0.3rem;
     padding: 0.1rem 0.3rem;
     border-radius: 0.2rem;
-    background-color: rgb(202, 195, 195);
+    background-color: rgba(4, 173, 55, 0.795);
     cursor: pointer;
     color: var(--primary-red);
     font-weight: 600;
@@ -16,5 +16,5 @@
   
   .paginationBtn:hover {
     background-color: var(--secondary-red);
-    color: white;
+    color: rgba(234, 240, 235, 0.959);
   }
