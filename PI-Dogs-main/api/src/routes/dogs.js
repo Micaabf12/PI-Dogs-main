@@ -105,13 +105,14 @@ const getDbDogs = async () => {
   return formattedDogsDB;
 };
 
-const deleteDog = (id) => {
-  Dog.findByPk(id);
-};
+//const deleteDog = (id) => {
+ // Dog.findByPk(id);
+//};
 
 const getAllDogs = async () => {
   const apiDogs = await getApiDogs();
   const dbDogs = await getDbDogs();
+  
 
   const allDogs = dbDogs.concat(apiDogs);
 
@@ -120,7 +121,7 @@ const getAllDogs = async () => {
 
 // GET --- All Dogs and Dogs By Name
 router.delete('/:id', async (req, res) => {
-  const id = req.params.id;
+  const { id } = req.params;
   Dog.destroy({
     where: {
       id: id,
