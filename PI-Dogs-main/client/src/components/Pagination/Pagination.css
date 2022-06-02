@@ -1,0 +1,78 @@
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(6px);
+  border: 1px solid black;
+  border-top: none;
+  width: 100rem;
+  position: relative;
+  left: 17.5rem;
+}
+
+.page h1 {
+  color: white;
+  background: rgb(6, 189, 30);
+  padding: 2px 4px;
+  border-radius: none;
+}
+
+.container-pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 3rem;
+  backdrop-filter: blur(6px);
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 3em;
+  width: 100rem;
+  position: relative;
+  left: 17.5em;
+}
+
+.navigation {
+  color: white;
+  background: rgb(2, 155, 53);
+  padding: 2px 4px;
+  border-radius: none;
+  border: none;
+  box-shadow: 1rem 1rem 1rem 0rem rgba(0, 0, 0, 0.7);
+  font-family: "Bebas Neue", cursive;
+}
+#prev {
+  margin-right: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#next {
+  margin-left: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.navigation:active:hover {
+  background-color: black;
+}
+
+.pagination {
+  display: flex;
+  padding-right: 0.9rem;
+}
+.pagination .active {
+  color: white;
+  background: rgb(5, 173, 5);
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 1rem 1rem 1rem 0rem rgba(0, 0, 0, 0.7);
+  font-family: "Josefina Sans", sans-serif;
+}
+
+.active:active:hover,
+.active:focus,
+.active:active {
+  background-color: black;
+}

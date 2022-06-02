@@ -33,6 +33,7 @@ export default function DogDetails() {
             <p className={styles.data}>{myDog.life_span} years</p>
             <h4 className={styles.titulo}>Temperament:</h4>
             <p className={styles.data}>{myDog.temperament}</p>
+        
           </div>
         </div>
       </div>

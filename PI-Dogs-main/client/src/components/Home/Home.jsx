@@ -169,6 +169,7 @@ export default function Home() {
                   image={dog.image}
                   temperament={dog.temperament}
                   weight={dog.weight}
+                  life_span={dog.life_span}
                 />
               );
             })}
